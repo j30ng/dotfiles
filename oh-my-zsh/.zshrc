@@ -60,6 +60,7 @@ source $ZSH/oh-my-zsh.sh
 
 export PATH="$PATH:$HOME/workspace/brew/bin"
 export EDITOR=/usr/local/bin/nvim
+export PATH="$HOME/.yarn/bin:$HOME/.config/yarn/global/node_modules/.bin:$PATH"
 
 alias vi=nvim
 alias vim=nvim

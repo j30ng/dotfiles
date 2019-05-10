@@ -59,6 +59,12 @@ endif " has("autocmd")
 "   packadd! matchit
 " endif
 
+if !isdirectory($HOME . "/.vim/backup")
+    call mkdir($HOME . "/.vim/backup", "p")
+endif
+set backupdir=~/.vim/backup
+
+
 source ~/.vim/vimplug.vim
 source ~/.vim/keymap.vim
 source ~/.vim/extra.vim
