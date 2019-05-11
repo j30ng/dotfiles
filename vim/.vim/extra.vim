@@ -1,7 +1,7 @@
 colo seoul256
 
-highlight TrailingWhiteSpaces guibg=white ctermfg=white ctermbg=white |
+highlight TrailingWhiteSpaces ctermfg=darkred ctermbg=darkred
 match TrailingWhiteSpaces /[ \t]\+$/
-autocmd ColorScheme * highlight TrailingWhiteSpaces guibg=white ctermfg=white ctermbg=white |
+autocmd ColorScheme * highlight TrailingWhiteSpaces ctermfg=darkred ctermbg=darkred
 
 set statusline^=%{coc#status()}
