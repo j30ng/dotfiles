@@ -11,6 +11,7 @@ Plug 'mileszs/ack.vim'
 let g:ackprg = 'ag --vimgrep'
 
 Plug 'sheerun/vim-polyglot'
+Plug 'fatih/vim-go', { 'do': ':GoUpdateBinaries' }
 
 Plug 'neoclide/coc.nvim', {'do': './install.sh nightly'}
 
