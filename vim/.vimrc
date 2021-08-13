@@ -61,7 +61,9 @@ if !isdirectory($HOME . "/.vim/backup")
 endif
 set backupdir=~/.vim/backup
 
-source ~/.vim/coc.vim
+set nu
+
 source ~/.vim/vimplug.vim
 source ~/.vim/keymap.vim
 source ~/.vim/extra.vim
+source ~/.vim/nvim-lsp.vim

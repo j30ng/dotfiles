@@ -8,11 +8,13 @@ Plug 'junegunn/fzf.vim'
 Plug 'christoomey/vim-tmux-navigator'
 
 Plug 'mileszs/ack.vim'
-let g:ackprg = 'ag --vimgrep'
 
 Plug 'sheerun/vim-polyglot'
-Plug 'fatih/vim-go', { 'do': ':GoUpdateBinaries' }
 
-Plug 'neoclide/coc.nvim', {'do': './install.sh nightly'}
+Plug 'jremmen/vim-ripgrep'
+
+Plug 'neovim/nvim-lspconfig'
+
+Plug 'hrsh7th/nvim-compe'
 
 call plug#end()
