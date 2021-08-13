@@ -52,6 +52,7 @@ ZSH_THEME="frisk"
 
 plugins=(
   git
+  fzf
 )
 
 LANG=ko_KR.UTF-8
